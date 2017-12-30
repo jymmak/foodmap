@@ -2,15 +2,7 @@ body{
   background-color: rgb(19, 7, 7);
 }
 
-.map{
-  height: 550px;
-  width: 100%;
-  frameborder:0px;
-  border:0px;
-}
-.title, .title2, .food{
-  color:orange;
-}
+/*Splash*/
 .title{
   background-color: #444444;
   position: fixed;
@@ -20,43 +12,67 @@ body{
   right: 0;
   overflow: auto;
   z-index: 3;
-
 }
 .fm{
   text-align: center;
   padding-top: 30vh;
   font-size: 450%;
 }
-.food{
-margin-left: 480px;
-font-size: 23px;
+.title, .title2, .pfood{
+  color:orange;
 }
-.mar{
-  padding: 30px;
-  padding-left: 70px;
-  padding-right: 5px;
+/*Map*/
+.map{
+  height: 550px;
+  width: 100%;
+  frameborder:0px;
+  border:0px;
 }
-.chif{
-  padding: 30px;
+.pfood{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 5px;
 }
-.cal{
-  padding: 0;
-  padding-left: 13px;
-  padding-right: 15px;
-  
+/*Bar*/
+.bar{
+  padding-bottom: 2%;
+}
+#custom-search-input{
+  border: solid 1px #E4E4E4;
+  border-radius: 6px;
+  background-color: #fff;
 }
 
-.calp{
-  padding: 0;
-  padding-left: 28px;
-  padding-right: 11px;
+#custom-search-input input{
+  border: 0;
+  box-shadow: none;
 }
-.rana{
-  padding: 0;
-  padding-left: 2px;
-  padding-right: 38px;
+
+#custom-search-input button{
+  margin: 2px 0 0 0;
+  background: none;
+  box-shadow: none;
+  border: 0;
+  color: #666666;
+  padding: 0 8px 0 10px;
+  border-left: solid 1px #ccc;
 }
-.foodimages{
+
+#custom-search-input button:hover{
+  border: 0;
+  box-shadow: none;
+  border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+  font-size: 23px;
+}
+
+.input-lg{
+  height: 35px;
+}
+/*Images*/
+.img-responsive{
   width:100%;
-  padding-top:3%;
+  padding-top:6%;
 }
