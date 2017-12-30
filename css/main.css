@@ -11,7 +11,48 @@ body{
 .title, .title2, .food{
   color:orange;
 }
+.title{
+  background-color: #444444;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  z-index: 3;
+
+}
+.fm{
+  text-align: center;
+  padding-top: 30vh;
+  font-size: 450%;
+}
 .food{
 margin-left: 480px;
 font-size: 23px;
+}
+.mar{
+  padding: 30px;
+  padding-left: 135px;
+  padding-right: 5px;
+}
+.chif{
+  padding: 30px;
+}
+.cal{
+  padding: 0;
+  padding-left: 13px;
+  padding-right: 15px;
+  
+}
+
+.calp{
+  padding: 0;
+  padding-left: 28px;
+  padding-right: 11px;
+}
+.rana{
+  padding: 0;
+  padding-left: 2px;
+  padding-right: 38px;
 }
