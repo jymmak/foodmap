@@ -36,6 +36,7 @@ $(document).ready(function () {
   });
 });
 
+ /*Modales*/
 $('.elcolorao').on({
   'mouseover': function () {
     var src = ($(this).attr('src') === 'assets/images/elcolorao2.png')
@@ -44,7 +45,7 @@ $('.elcolorao').on({
     $(this).attr('src', src);
   }
 });
-$('.foodwan').on({
+$('.foodwang').on({
   'mouseover': function() {
        var src = ($(this).attr('src') === 'assets/images/wang2.png')
           ? 'assets/images/wang.png'
