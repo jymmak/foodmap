@@ -31,11 +31,9 @@ body{
 }
 /*Map*/
 .map{
-  height: 550px;
+  height: 500px;
   width: 100%;
-  frameborder:0px;
-  border:0px;
-  margin-top: 7px;
+  margin-top: 5%;
 }
 .pfood{
   font-size: 20px;
@@ -81,13 +79,42 @@ body{
   height: 35px;
 }
 /*Images*/
-.img-responsive{
+.foodimg{
   width:100%;
   padding-top:6%;
 }
 
+.clf{
+  padding-left: 13px;
+  padding-right: 5px;
+}
+
+.cnf{
+  padding: 0;
+  padding-right: 18px;
+}
+
+.inf{
+  padding: 0;
+  padding-left: 13px;
+  padding-right: 5px;
+}
+
+.pef{
+  padding: 0;
+  padding-left: 8px;
+  padding-right: 11px;
+}
+.thaf{
+  padding: 0;
+  padding-left: 2px;
+  padding-right: 18px;
+}
+
+.foodimages{
+  padding-bottom: 5%;
+}
 /*Modales*/
-/*Modal-colorao*/
 .modal-title{
   text-align: center;
 }
@@ -95,3 +122,4 @@ body{
 h5 {
   color:#BB2F2F;
 }
+

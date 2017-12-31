@@ -10,25 +10,25 @@ $(document).ready(function () {
     $('#filtrores').change(function () {
       if ($('#filtrores').val() == 'price') {
         $('#preciodiv').show();
-        $('.img-responsive').hide();
+        $('.foodimages').hide();
       } else {
         $('#preciodiv').hide();
       }
       if ($('#filtrores').val() == 'locales abiertos') {
         $('#abiertodiv').show();
-        $('.img-responsive').hide();
+        $('.foodimages').hide();
       } else {
         $('#abiertodiv').hide();
       }
       if ($('#filtrores').val() == 'valoracion') {
         $('#valdiv').show();
-        $('.img-responsive').hide();
+        $('.foodimages').hide();
       } else {
         $('#valdiv').hide();
       }
       if ($('#filtrores').val() == 'orden alfabetico') {
         $('#alphord').show();
-        $('.img-responsive').hide();
+        $('.foodimages').hide();
       } else {
         $('#alphord').hide();
       }XMLDocument
@@ -42,5 +42,13 @@ $('.elcolorao').on({
       ? 'assets/images/elcolorao.png'
       : 'assets/images/elcolorao2.png';
     $(this).attr('src', src);
+  }
+});
+$('.foodwan').on({
+  'mouseover': function() {
+       var src = ($(this).attr('src') === 'assets/images/wang2.png')
+          ? 'assets/images/wang.png'
+          : 'assets/images/wang2.png';
+       $(this).attr('src', src);
   }
 });
